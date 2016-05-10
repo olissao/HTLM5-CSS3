@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkseagreen;
+}
+
+header {
+    width:80%;
+    border-color: blue;
+    background-color: black;
+    color: royalblue;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+section {
+      width:80%;
+    border-color: blue;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: black;
+    border-style: solid;
+    padding: 7px;
+}
+
+
+p {
+    margin: 10px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 2em;
+}
+
+h2{
+    margin: 10px;
+    font-size: 1.8;
+}
+h3 {
+    margin: 10px;
+    font-size: 1.6;
+}
+h4 {
+    margin: 10px;
+    font-size: 1.5;
+}
+h5 {
+    margin: 10px;
+    font-size: 1.3;
+}
+
+hgroup {
+    width: 70%;
+    float: left;
+}
+hgroup h1{
+    padding-top: 0;
+    line-height: 1em;
+}
+hgroup h2{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 1em;
+}
+nav{
+    width: 30%;
+    float: right;
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    float: left;
+    margin: 5px;
+}
+
+/*img {
+    float: left;
+    margin: 10px 10px 0px 0px;
+    box-shadow: 3px 3px 5px 1px cadetblue;
+}*/
+aside {
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: small;
+    background-color: darkolivegreen;
+    padding: 20px;
+    border: 1px solid darkslategray;
+    border-radius: 10px;
+    
+}
+footer {
+    width:80%;
+    border-color: blue;
+    background-color: darkslategray;
+    color: brown;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    height: 50px;
+}
